@@ -4,6 +4,7 @@
         <active>true</active>
         <color>primary</color>
         <description/>
+        <icon/>
         <item_type>action</item_type>
         <label>Play from Start (UXF)</label>
         <layout_group/>

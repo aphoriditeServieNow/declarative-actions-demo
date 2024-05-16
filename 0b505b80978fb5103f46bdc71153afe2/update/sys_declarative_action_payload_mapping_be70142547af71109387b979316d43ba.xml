@@ -4,6 +4,7 @@
         <label>(DA Demo) Show a Modal  Board</label>
         <model display_value="Board">45757de50fa52010ad4437a98b767e33</model>
         <payload_map>routeName=^EQ</payload_map>
+        <required_translations/>
         <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 00:59:11</sys_created_on>

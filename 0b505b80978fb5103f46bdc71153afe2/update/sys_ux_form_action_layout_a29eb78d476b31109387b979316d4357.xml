@@ -18,5 +18,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-04 05:04:29</sys_updated_on>
         <table>incident</table>
+        <use_layout_items_only>false</use_layout_items_only>
     </sys_ux_form_action_layout>
 </record_update>

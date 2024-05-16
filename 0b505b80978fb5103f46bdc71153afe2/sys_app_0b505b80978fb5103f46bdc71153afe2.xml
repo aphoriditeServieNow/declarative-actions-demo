@@ -16,6 +16,7 @@
         <logo/>
         <menu display_value="Declarative Actions Demo">37558b49476731109387b979316d4387</menu>
         <name>Declarative Actions Demo</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>

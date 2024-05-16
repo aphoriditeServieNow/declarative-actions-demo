@@ -6,6 +6,7 @@
         <designer_state/>
         <label>Podcast Episode Playbook</label>
         <name>podcast_episode_playbook</name>
+        <restartable/>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>1</schema_version>
         <snapshot/>
@@ -24,6 +25,7 @@
         <sys_updated_on>2024-01-04 10:39:19</sys_updated_on>
         <view_type>KANBAN</view_type>
     </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c40b419947ef31109387b979316d4381"/>
     <sys_pd_process_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
@@ -31,6 +33,7 @@
         <designer_state/>
         <label>Podcast Episode Playbook</label>
         <name>podcast_episode_playbook</name>
+        <restartable/>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>1</schema_version>
         <snapshot/>
@@ -49,6 +52,7 @@
         <sys_updated_on>2024-01-04 10:39:19</sys_updated_on>
         <view_type>KANBAN</view_type>
     </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c40b419947ef31109387b979316d4381"/>
     <sys_pd_lane action="delete_multiple" query="process_definition=c40b419947ef31109387b979316d4381^sys_idNOT INc89b8dd947ef31109387b979316d4339"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -59,6 +63,7 @@
         <name>stage_1</name>
         <order>1</order>
         <process_definition display_value="Podcast Episode Playbook">c40b419947ef31109387b979316d4381</process_definition>
+        <restart_rule/>
         <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
         <start_rule_vars/>
         <sys_created_by>admin</sys_created_by>
@@ -69,6 +74,7 @@
         <sys_updated_on>2024-01-04 10:39:01</sys_updated_on>
         <visible_rule/>
     </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=c89b8dd947ef31109387b979316d4339"/>
     <sys_variable_value action="delete_multiple" query="document_key=c89b8dd947ef31109387b979316d4339"/>
     <sys_pd_activity action="delete_multiple" query="process_definition=c40b419947ef31109387b979316d4381^sys_idNOT IN78ab491d47ef31109387b979316d43ca"/>
     <sys_pd_activity action="INSERT_OR_UPDATE">
@@ -86,6 +92,7 @@
         <order>1</order>
         <outputs/>
         <process_definition display_value="Podcast Episode Playbook">c40b419947ef31109387b979316d4381</process_definition>
+        <restart_rule/>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -98,6 +105,7 @@
         <type_vals/>
         <type_vals/>
     </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=78ab491d47ef31109387b979316d43ca"/>
     <sys_variable_value action="delete_multiple" query="document_key=78ab491d47ef31109387b979316d43ca"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -558,8 +566,6 @@
         <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
         <value/>
     </sys_element_mapping>
-    <sys_pd_swim_lane action="delete_multiple" query="process_definition=c40b419947ef31109387b979316d4381"/>
-    <sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=c40b419947ef31109387b979316d4381"/>
     <sys_pd_snapshot action="delete_multiple" query="sys_id="/>
     <sys_json_chunk action="delete_multiple" query="document_id="/>
     <sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/>
@@ -579,6 +585,7 @@
         <trigger_inputs/>
         <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
     </sys_pd_trigger_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=480bc19947ef31109387b979316d4332"/>
     <sys_variable_value action="delete_multiple" query="document_key=480bc19947ef31109387b979316d4332"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_trigger_instance</document>

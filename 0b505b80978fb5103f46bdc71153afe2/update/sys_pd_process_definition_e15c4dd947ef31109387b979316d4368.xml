@@ -6,6 +6,7 @@
         <designer_state/>
         <label>Podcast Episode</label>
         <name>podcast_episode</name>
+        <restartable/>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot/>
@@ -24,6 +25,7 @@
         <sys_updated_on>2024-01-04 13:18:28</sys_updated_on>
         <view_type>DIAGRAM</view_type>
     </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=e15c4dd947ef31109387b979316d4368"/>
     <sys_pd_process_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
@@ -31,6 +33,7 @@
         <designer_state/>
         <label>Podcast Episode</label>
         <name>podcast_episode</name>
+        <restartable/>
         <run_on_pad_engine>false</run_on_pad_engine>
         <schema_version>2</schema_version>
         <snapshot/>
@@ -49,6 +52,7 @@
         <sys_updated_on>2024-01-04 13:18:28</sys_updated_on>
         <view_type>DIAGRAM</view_type>
     </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=e15c4dd947ef31109387b979316d4368"/>
     <sys_pd_lane action="delete_multiple" query="process_definition=e15c4dd947ef31109387b979316d4368^sys_idNOT IN19010e01904cc0190a4d0190dcf01903"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -59,6 +63,7 @@
         <name>new_stage</name>
         <order>1</order>
         <process_definition display_value="Podcast Episode">e15c4dd947ef31109387b979316d4368</process_definition>
+        <restart_rule/>
         <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
         <start_rule_vars/>
         <sys_created_by>admin</sys_created_by>
@@ -69,6 +74,7 @@
         <sys_updated_on>2024-01-04 10:42:37</sys_updated_on>
         <visible_rule/>
     </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=19010e01904cc0190a4d0190dcf01903"/>
     <sys_variable_value action="delete_multiple" query="document_key=19010e01904cc0190a4d0190dcf01903"/>
     <sys_pd_activity action="delete_multiple" query="process_definition=e15c4dd947ef31109387b979316d4368^sys_idNOT IN8ea8c908eac6d08ea6ff08ea55d08ea3"/>
     <sys_pd_activity action="INSERT_OR_UPDATE">
@@ -86,6 +92,7 @@
         <order>1</order>
         <outputs/>
         <process_definition display_value="Podcast Episode">e15c4dd947ef31109387b979316d4368</process_definition>
+        <restart_rule/>
         <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
         <start_rule_vars/>
         <swim_lane/>
@@ -98,6 +105,7 @@
         <type_vals/>
         <type_vals/>
     </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=8ea8c908eac6d08ea6ff08ea55d08ea3"/>
     <sys_variable_value action="delete_multiple" query="document_key=8ea8c908eac6d08ea6ff08ea55d08ea3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -754,8 +762,6 @@
         <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
         <value/>
     </sys_element_mapping>
-    <sys_pd_swim_lane action="delete_multiple" query="process_definition=e15c4dd947ef31109387b979316d4368"/>
-    <sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=e15c4dd947ef31109387b979316d4368"/>
     <sys_pd_snapshot action="delete_multiple" query="sys_id="/>
     <sys_json_chunk action="delete_multiple" query="document_id="/>
     <sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/>
@@ -775,6 +781,7 @@
         <trigger_inputs/>
         <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
     </sys_pd_trigger_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=b95c4911472371109387b979316d434c"/>
     <sys_variable_value action="delete_multiple" query="document_key=b95c4911472371109387b979316d434c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_trigger_instance</document>

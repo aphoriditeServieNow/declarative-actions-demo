@@ -5,6 +5,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-04 10:52:44</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>01be8d99472371109387b979316d43d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Declarative Actions Demo</sys_name>

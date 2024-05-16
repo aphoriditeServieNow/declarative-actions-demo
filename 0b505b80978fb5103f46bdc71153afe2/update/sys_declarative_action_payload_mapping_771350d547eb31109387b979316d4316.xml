@@ -4,6 +4,7 @@
         <label>Add to Playlist  Related List</label>
         <model display_value="Related List">d91731a9534723003eddddeeff7b121c</model>
         <payload_map>episodeSysIds={{sysIds}}^EQ</payload_map>
+        <required_translations/>
         <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-04 06:32:15</sys_created_on>
